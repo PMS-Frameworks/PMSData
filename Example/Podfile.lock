@@ -1,0 +1,16 @@
+PODS:
+  - PMSData (0.1.0)
+
+DEPENDENCIES:
+  - PMSData (from `../`)
+
+EXTERNAL SOURCES:
+  PMSData:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PMSData: 8d408c48a9e33554d44a320a2e438ce7ebf40919
+
+PODFILE CHECKSUM: e16dce5df67b6c302b74a3acd16e05a2bcc6120d
+
+COCOAPODS: 1.10.1

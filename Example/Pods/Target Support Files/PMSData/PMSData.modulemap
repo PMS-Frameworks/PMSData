@@ -1,0 +1,6 @@
+framework module PMSData {
+  umbrella header "PMSData-umbrella.h"
+
+  export *
+  module * { export * }
+}

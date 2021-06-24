@@ -1,0 +1,6 @@
+framework module Pods_PMSData_Tests {
+  umbrella header "Pods-PMSData_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

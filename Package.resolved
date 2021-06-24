@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PMSRxModule",
+        "repositoryURL": "https://github.com/PMS-Frameworks/PMSRxModule",
+        "state": {
+          "branch": "master",
+          "revision": "d1c791cc3d236d7aa9d3f7c1c12eefa0bf3a1266",
+          "version": null
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift",
+        "state": {
+          "branch": null,
+          "revision": "254617dd7fae0c45319ba5fbea435bf4d0e15b5d",
+          "version": "5.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
