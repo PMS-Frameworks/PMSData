@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 import Moya
+import PMSDomain
 
 final class DefaultOutingListRepository: OutingListRepository {
     let provider: MoyaProvider<AuthApi>

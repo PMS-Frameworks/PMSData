@@ -8,6 +8,7 @@
 import Foundation
 import Moya
 import RxSwift
+import PMSDomain
 
 final class DefaultCalendarRepository: CalendarRepository {
     let provider: MoyaProvider<PMSApi>

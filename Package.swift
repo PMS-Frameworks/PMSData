@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "PMSData",
+    platforms: [.iOS(.v11), .macOS(.v10_12)],
     products: [
         .library(
             name: "PMSData",
@@ -12,18 +13,16 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Moya/Moya", from: "14.0.0"),
-        .package(url: "https://github.com/PMS-Frameworks/PMSRxModule", .branch("master")),
-        .package(url: "https://github.com/PMS-Frameworks/PMSDomain", .branch("master")),
+        .package(url: "https://github.com/PMS-Frameworks/PMSDomain", from: "1.0.0"),
     ],
     targets: [
         .target(
             name: "PMSData",
             dependencies: [
                 .product(name: "Moya", package: "Moya", condition: .when(platforms: [.iOS])),
-                "PMSRxModule",
-            ]),
-        .testTarget(
-            name: "PMSDataTests",
-            dependencies: ["PMSData"]),
+                .product(name: "RxMoya", package: "Moya", condition: .when(platforms: [.iOS])),
+                "PMSDomain",
+            ],
+            path: "PMSData/Classes")
     ]
 )

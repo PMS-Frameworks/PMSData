@@ -8,6 +8,7 @@
 import Foundation
 import Moya
 import RxSwift
+import PMSDomain
 
 final class DefaultMealRepository: MealRepository {
     let provider: MoyaProvider<PMSApi>

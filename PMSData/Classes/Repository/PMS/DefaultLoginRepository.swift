@@ -8,6 +8,7 @@
 import Moya
 import RxMoya
 import RxSwift
+import PMSDomain
 
 final class DefaultLoginRepository: LoginRepository {
     let provider: MoyaProvider<AuthApi>
